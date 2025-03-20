@@ -158,7 +158,7 @@ def main():
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     
     # Initialize bot
-    bot_token = "8018092627:AAFFE7J0BkptclP8WPk0wRGFwx5dAtDuGQM"
+    bot_token = "yourtoken"
     app = Application.builder().token(bot_token).build()
     
     # Add handlers
